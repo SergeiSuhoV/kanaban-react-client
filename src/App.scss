@@ -1,0 +1,19 @@
+.app {
+  background-image: url("../public/images/m-bg-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+
+  &__body {
+    border: rgb(255, 220, 21) 1px solid;
+    /* flex: 1 auto 1; */
+    height: 400px;
+  }
+
+  &__footer {
+    border: rgb(236, 0, 51) 1px solid;
+  }
+}

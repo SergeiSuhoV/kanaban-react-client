@@ -1,0 +1,19 @@
+.board {
+  border: rgb(0, 0, 0) 1px dashed;
+
+  &__wrapper {
+    position: relative;
+    border-top: solid 2px #fff;
+  }
+
+  &__title {
+    max-width: 164px;
+    height: 28px;
+    border: steelblue 2px solid;
+    border-radius: 30px;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -82px;
+  }
+}
