@@ -1,7 +1,7 @@
 ![Status project](https://img.shields.io/badge/status%20project-develop-green?style=for-the-badge&logo=appveyor)
 # KANABAN 
 
-## Task Board "Kanban"
+### Task Board "Kanban"
 
 ![kanaban preview maket](https://github.com/SergeiSuhoV/public-users-images/blob/master/kanaban-react-client/figma-kanaban-preview%201.0.png)
 
