@@ -1,4 +1,14 @@
 .team-online {
-    border: 1px solid chartreuse; 
+    max-width: 464px;
+    height: 68px;
+    border-radius: 31px;
+    display: flex;
+    background-color:rgba($color: #F9F9F9, $alpha: 0.7);
+    box-shadow: 0px 0px 15px #F9F9F9;
 
+    & >img {
+        width: 47px;
+        height: auto;
+        margin: 10px;
+    }
 }

@@ -16,7 +16,7 @@ function Header() {
         {/* TeamOnline */}
         <TeamOnline />
         {/* Avatar */}
-        <Avatar />
+        <Avatar name="SS"/>
         {/* Settings */}
         <Settings />
       </div>
