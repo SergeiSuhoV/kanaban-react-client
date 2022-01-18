@@ -1,19 +1,33 @@
 import React from "react";
 import Avatar from "./Avatar";
-import Ellipsis from "./Ellipsis";
+import ButtonEllipsis from "./ButtonEllipsis";
 import "./TeamOnline.scss";
 
 function TeamOnline() {
   return (
     <div className="team-online">
-      <Ellipsis />
+      <ButtonEllipsis />
+      <wrapper className="team-online__avatar">
       <Avatar urlImage={"/images/test-ava-otlishno.jpg"} />
+      </wrapper>
+      <wrapper className="team-online__avatar">
       <Avatar urlImage={"/images/test-ava-otlishno.jpg"} />
+      </wrapper>
+      <wrapper className="team-online__avatar">
       <Avatar urlImage={"/images/test-ava-otlishno.jpg"} />
+      </wrapper>
+      <wrapper className="team-online__avatar">
       <Avatar urlImage={"/images/test-ava-otlishno.jpg"} />
+      </wrapper>
+      <wrapper className="team-online__avatar">
       <Avatar urlImage={"/images/test-ava-otlishno.jpg"} />
+      </wrapper>
+      <wrapper className="team-online__avatar">
       <Avatar urlImage={"/images/test-ava-otlishno.jpg"} />
+      </wrapper>
+      <wrapper className="team-online__avatar">
       <Avatar urlImage={"/images/test-ava-otlishno.jpg"} />
+      </wrapper>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import "./AddBtn.scss"
 function AddTask() {
     return (
         <div className='add-btn'>
-            +
+            
         </div>
     )
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "./Settings.scss";
 
 function Settings() {
-  return <div className="settings">SETTINGS</div>;
+  return <img src="/images/m-icon-settings.svg" className="settings" />;
 }
 
 export default Settings;

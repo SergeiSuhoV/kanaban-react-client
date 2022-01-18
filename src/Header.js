@@ -16,9 +16,13 @@ function Header() {
         {/* TeamOnline */}
         <TeamOnline />
         {/* Avatar */}
-        <Avatar name="SS"/>
-        {/* Settings */}
-        <Settings />
+        <div className="header__user-avatar">
+          <Avatar name="S" />
+        </div>
+        <div className="header__user-settings">
+          {/* Settings */}
+          <Settings />
+        </div>
       </div>
     </div>
   );

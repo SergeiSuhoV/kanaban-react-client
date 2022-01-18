@@ -1,9 +1,9 @@
 .header {
-  border: 1px solid rgb(255, 72, 0);
   height: 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 
   &__logo {
     margin-left: 20px;
@@ -11,9 +11,17 @@
 
   &__wrapper {
     margin-right: 20px;
-    border: cornflowerblue solid 1px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    margin-left: 20px;
+  }
+
+  &__user-avatar {
+    margin: auto 10px auto 21px;
+  }
+
+  &__user-settings {
+    margin: auto 0;
   }
 }
